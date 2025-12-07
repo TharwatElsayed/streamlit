@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Must be first Streamlit command
-st.set_page_config(page_title="Hate Speech Detection", layout="centered")
+#st.set_page_config(page_title="Hate Speech Detection", layout="centered")
 
 from transformers import pipeline
 
