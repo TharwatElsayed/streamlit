@@ -1,8 +1,4 @@
 import streamlit as st
-
-# Must be first Streamlit command
-#st.set_page_config(page_title="Hate Speech Detection", layout="centered")
-
 from transformers import pipeline
 
 # -------------------------------
@@ -31,8 +27,8 @@ if st.button("Analyze"):
             result = pipe(text_input)
 
         label = result[0]["label"]
-        score = float(result[0]["score"])
+        #score = float(result[0]["score"])
 
-        st.subheader("🔎 Prediction Result")
+        #st.subheader("🔎 Prediction Result")
         st.write(f"**Label:** {label}")
-        st.write(f"**Confidence:** {score:.4f}")
+        #st.write(f"**Confidence:** {score:.4f}")
