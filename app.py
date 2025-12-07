@@ -36,8 +36,3 @@ if st.button("Analyze"):
         st.subheader("🔎 Prediction Result")
         st.write(f"**Label:** {label}")
         st.write(f"**Confidence:** {score:.4f}")
-
-        if "hate" in label.lower():
-            st.error("⚠️ Hate Speech Detected")
-        else:
-            st.success("✔️ Not Hate Speech")
