@@ -18,8 +18,8 @@ pipe = load_pipeline()
 # -------------------------------
 # Streamlit UI
 # -------------------------------
-st.title("🛡️ Hate Speech Detection App")
-st.write("This app uses the **ctoraman/hate-speech-bert** model to classify text.")
+#st.title("🛡️ Hate Speech Detection App")
+#st.write("This app uses the **ctoraman/hate-speech-bert** model to classify text.")
 
 text_input = st.text_area("Enter text to analyze:", height=150)
 
