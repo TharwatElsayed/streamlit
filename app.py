@@ -30,5 +30,5 @@ if st.button("Analyze"):
         #score = float(result[0]["score"])
 
         #st.subheader("🔎 Prediction Result")
-        st.write(f"**Label:** {label}")
+        st.write(f"{label}")
         #st.write(f"**Confidence:** {score:.4f}")
